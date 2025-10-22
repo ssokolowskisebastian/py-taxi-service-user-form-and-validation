@@ -5,6 +5,7 @@
   <form action="" method="post">
     {% csrf_token %}
 
-    <input type="submit" value="Yes" class="btn btn-danger">
+    <button type="submit" class="btn btn-danger">Confirm</button>
+  <a href="javascript:history.back()" class="btn btn-secondary">Cancel</a>
   </form>
 {% endblock %}
